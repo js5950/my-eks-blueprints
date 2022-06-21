@@ -23,7 +23,7 @@ export default class PipelineConstruct extends Construct {
       .owner("js5950")
       .repository({
           repoUrl: 'my-eks-blueprints',
-          credentialsSecretName: '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',
+          credentialsSecretName: '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',
           targetRevision: 'main'
       })
       .wave({
