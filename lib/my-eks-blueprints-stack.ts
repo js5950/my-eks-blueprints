@@ -1,4 +1,3 @@
-// lib/my-eks-blueprints-stack.ts
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as blueprints from '@aws-quickstart/eks-blueprints';
@@ -18,3 +17,4 @@ export default class ClusterConstruct extends Construct {
     .build(scope, id+"-stack");
   }
 }
+

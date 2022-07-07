@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-// bin/my-eks-blueprints.ts
 import * as cdk from 'aws-cdk-lib';
 import ClusterConstruct from '../lib/my-eks-blueprints-stack';
-import PipelineConstruct from '../lib/pipeline';
+import PipelineConstruct from '../lib/pipeline'; // IMPORT OUR PIPELINE CONSTRUCT
 
 
 const app = new cdk.App();
